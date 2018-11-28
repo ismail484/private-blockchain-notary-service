@@ -53,8 +53,15 @@ app.js
    1.  Download all Project files
    2.  Run `npm install` to install all required dependancies &packages .
    3.  Run `nodemon app.js`
-   3.  open browser [Private Blockchain Notary Service App](http://localhost:8000/book/5)
-   4.  data example:`{"success":true,"data":{"hash":"8860167ee6ecca0a44e2b9112b5a2c9ca744920073d401c9557ce9afc7b86756","height":5,"body":"this is data for testing","time":"1537745553","previousBlockHash":"71ebff7e5abb01b898cc81a728650e365f8e1791b0174f66076de45f4a69a24a"}}`
+   4.  open browser [Private Blockchain Notary Service App](http://localhost:8000/book/5)
+ 
+ # APIs
+   1.  http://localhost:8000/requestValidation.
+   2.  http://localhost:8000/message-signature/validate
+   3.  http://localhost:8000/block
+   4.  http://localhost:8000/stars/hash:[HASH]
+   5.  http://localhost:8000/stars/address:[ADDRESS]
+   6.  http://localhost:8000/block/[HEIGHT]
   
  
 # Test
