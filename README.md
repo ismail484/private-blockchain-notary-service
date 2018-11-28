@@ -3,8 +3,9 @@
 
 # Description
   
-  ### First open [Restful BlockChain API App](http://localhost:8000/book/:id) to discover, how app works .
+  ### First open [[Private Blockchain Notary Service App](http://localhost:8000/book/:id) to discover, how app works .
   - Simply , It acts as a restfull Blockchain API using Nodejs (Express)   .
+  - build a Star Registry Service that allows users to claim ownership of their favorite star in the night sky.
   - This web App introduces the fundamentals of web APIs with Node.js frameworks. Using my own private blockchain to create a web API is a huge first step toward developing my own web applications that are consumable by a variety of web clients.
   
 
