@@ -2,7 +2,7 @@ const level = require('level');
 const starDB = '../data/star';
 const db = level(starDB);
 const bitcoinMessage = require('bitcoinjs-message')
-const expirationDate = Date.now() - (5 * 60 * 1000)
+
 
 
 class StarValidation {
@@ -85,6 +85,7 @@ class StarValidation {
             status: res
         }) 
         } else {
+          const expirationDate = Date.now() - (5 * 60 * 1000)
           const isExpired = res.requestTimeStamp < expirationDate
           let isValid = false
   
@@ -142,6 +143,7 @@ class StarValidation {
 
         res = JSON.parse(res)
 
+        const expirationDate = Date.now() - (5 * 60 * 1000)
         const isExpired = res.requestTimeStamp < expirationDate
 
         if (isExpired) {
