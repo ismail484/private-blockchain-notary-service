@@ -1,6 +1,12 @@
  
 # Project: private-blockchain-notary-service - [Mohamed Ismail]
 
+# Testing
+
+  [![passing](https://semaphoreci.com/api/v1/ibrunotome/udacity-blockchain-developer-nanodegree/branches/master/badge.svg)](https://semaphoreci.com/api/v1/ibrunotome/udacity-blockchain-developer-nanodegree/branches/master/badge.svg)
+
+
+
 # Description
   
   ### First open [[Private Blockchain Notary Service App](http://localhost:8000/book/:id) to discover, how app works .
